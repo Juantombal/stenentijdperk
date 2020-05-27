@@ -11,12 +11,10 @@ import javafx.scene.layout.Priority;
 
 public class LoginView {
 	private LoginController controller;
-	private PlayerModel playermodel; 
 	private GridPane view;
 	
-	public LoginView(LoginController controller, PlayerModel model) {
+	public LoginView(LoginController controller) {
 		this.controller = controller;
-		this.playermodel = model;
 		
 		setupPane();
 	}

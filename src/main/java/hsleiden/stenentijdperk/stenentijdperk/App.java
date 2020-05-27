@@ -5,8 +5,6 @@ import hsleiden.stenentijdperk.stenentijdperk.Models.PlayerModel;
 import hsleiden.stenentijdperk.stenentijdperk.Views.LoginView;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 
@@ -18,9 +16,8 @@ public class App extends Application {
 	
     @Override
     public void start(Stage primaryStage) {
-    	PlayerModel playermodel = new PlayerModel();
         LoginController controller = new LoginController();
-        LoginView view = new LoginView(controller, playermodel);
+        LoginView view = new LoginView(controller);
         
         Scene scene = new Scene(view.setScene(), 800, 800);
         primaryStage.setScene(scene);
