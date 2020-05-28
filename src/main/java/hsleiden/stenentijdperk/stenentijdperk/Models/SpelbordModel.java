@@ -1,6 +1,9 @@
 package hsleiden.stenentijdperk.stenentijdperk.Models;
 
-import hsleiden.stenentijdperk.stenentijdperk.Helpers.*;
+import hsleiden.stenentijdperk.stenentijdperk.Helpers.Hut;
+import hsleiden.stenentijdperk.stenentijdperk.Helpers.Kaart;
+import hsleiden.stenentijdperk.stenentijdperk.Helpers.Locatie;
+import hsleiden.stenentijdperk.stenentijdperk.Helpers.Resource;
 
 public class SpelbordModel {
 	private Kaart[] kaarten;

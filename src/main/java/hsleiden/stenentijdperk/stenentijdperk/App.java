@@ -1,7 +1,6 @@
 package hsleiden.stenentijdperk.stenentijdperk;
 
 import hsleiden.stenentijdperk.stenentijdperk.Controllers.LoginController;
-import hsleiden.stenentijdperk.stenentijdperk.Models.PlayerModel;
 import hsleiden.stenentijdperk.stenentijdperk.Views.LoginView;
 import javafx.application.Application;
 import javafx.scene.Scene;

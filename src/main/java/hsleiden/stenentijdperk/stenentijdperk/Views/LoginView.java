@@ -1,7 +1,6 @@
 package hsleiden.stenentijdperk.stenentijdperk.Views;
 
 import hsleiden.stenentijdperk.stenentijdperk.Controllers.LoginController;
-import hsleiden.stenentijdperk.stenentijdperk.Models.PlayerModel;
 import javafx.geometry.HPos;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
